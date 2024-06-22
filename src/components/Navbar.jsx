@@ -26,7 +26,7 @@ export const Navbar = () => {
                 <li><Link to="/tasks">Tasks</Link></li>
             </ul>
             <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                <Link to="/profile">
+                <Link to="/tasks">
                     <FontAwesomeIcon icon={faUser} style={{ height: '24px', color: 'white' }} />
                 </Link>
                 {showDropdown && (
